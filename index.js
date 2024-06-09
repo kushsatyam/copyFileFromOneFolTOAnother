@@ -13,7 +13,7 @@ fs.readdir(srcPathName, (err, data) => {
         copFiles(item);
     }
 
-});
+}); 
 
 function toEmptyTheTemp(fileName) {
     fs.rm(srcPathName+'/'+fileName,(err)=>{
